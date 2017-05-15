@@ -25,7 +25,13 @@
 		
 			<div class="row justify-content-center">
 				<div class="col-sm-5 mb-1 mr-1 px-0">
-					<a href="./singer.html"><img class="image" src="./img/bewhy.png">술</img></a></div>
+					<a href="./singer.html" class="tmp" >
+						<img class="image" src="./img/bewhy.png" onmouseover="makeOpacity(this)" onmouseout="removeOpacity(this)">술</img>
+					</a>
+					<div class="character">
+						<h1>연예인</h1>
+					</div>
+				</div>
 				<div class="col-sm-5 mb-1 px-0"><img class="image" src="./img/day.png"></img></div>
 			</div>
 			
@@ -33,9 +39,17 @@
 				<div class="col-sm-5 mr-1 px-0"><img class="image" src="./img/disco.png"></img></div>
 				<div class="col-sm-5 px-0"><img class="image" src="./img/shrimp.png"></img></div>
 			</div>
-		
 	</div>
+	<script>
+		function makeOpacity(x) {
+		    x.style.opacity = 0.8;
+		}
+
+		function removeOpacity(x) {
+			x.style.opacity = 1;
+	}
 	
+	</script>	
 </body>
 
 
