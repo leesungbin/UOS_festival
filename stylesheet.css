@@ -2,10 +2,23 @@
   box-sizing: border-box;  /* you can find border-box image from f12*/
 }
 
-.col-6{
+.col-sm-4{
+    width:200px;
+    height:300px;
+    background-color: red;
+}
+
+body{
+    background-image : url(/img/siesta.jpg);
+    background-size : cover;
     width:100%;
-    height:600px;
-    background-color: white;
-    border-color: red;
-  
+    height:100%;
+    display:block;
+    
+}
+
+
+.mx-auto{
+    display:block;
+    width:400px;
 }
