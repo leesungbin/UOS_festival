@@ -11,13 +11,11 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	
 </head>
 
 <body>
 
-	
-	
 	<div class="menu align-items-center">
 		
 			<div class="row justify-content-center">
@@ -30,7 +28,9 @@
 					</div>
 				</div>
 				<div class="col-sm-5 mb-2 px-0">
-					<img class="image" src="./img/day.png" onmouseover="makeOpacity(this)" onmouseout="removeOpacity(this)"></img>
+					<a href="./alchol.html" class="tmp" >
+						<img class="image" src="./img/day.png" onmouseover="makeOpacity(this)" onmouseout="removeOpacity(this)"></img>
+					</a>
 					<div class="character">
 						<p>적<br>셔</p>
 					</div>
@@ -58,6 +58,7 @@
 			</div>
 	</div>
 	
+
 	<script>
 		function makeOpacity(x) {
 		    x.style.opacity = 0.8;
@@ -67,6 +68,23 @@
 			x.style.opacity = 1;
 	}
 	
-	</script>	
+	</script>
+	
+	<footer class="container-fluid text-center mt-4" >
+   
+           <div class="copyrights" style="padding-bottom: 30px;">
+               <p><img src="./img/like-lion.gif" height="70px" width="70px" />
+                   <br><img src="./img/times.png" height="30px" width="30px" />
+                   <br>
+                   <span>
+                      <img src="./img/name-sb.gif" height="50px" width="50px" />
+                      <img src="./img/name-hj.gif" height="50px" width="50px" />
+                      <img src="./img/name-sh.gif" height="50px" width="50px" />
+                      <img src="./img/name-ky.gif" height="50px" width="50px" />
+                      <img src="./img/name-bw.gif" height="50px" width="50px" />
+                   </span>
+               </p>
+           </div>
+   </footer>
 </body>
 </html>
