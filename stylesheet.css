@@ -13,8 +13,12 @@ body{
     background-size : cover;
     width:100%;
     height:100%;
+<<<<<<< HEAD
     display:block;
     vertical-align:center;
+=======
+    /*display: block;*/
+>>>>>>> 26f7ed99f04d5695cf476028ead352d9d8fd203a
     
 }
 
