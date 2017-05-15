@@ -1,0 +1,11 @@
+*{                       /* * : adapt all tag */
+  box-sizing: border-box;  /* you can find border-box image from f12*/
+}
+
+.col-6{
+    width:100%;
+    height:600px;
+    background-color: white;
+    border-color: red;
+  
+}
