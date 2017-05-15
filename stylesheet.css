@@ -2,15 +2,10 @@
   box-sizing: border-box;  /* you can find border-box image from f12*/
 }
 
-
-
 .menu{
-    width:100%;
-    height:80%;
     margin-top:20%;
-    
-    
-    
+    height:80%;
+    width:100%;
 }
 
 .image{
