@@ -1,0 +1,16 @@
+iframe{
+    /*width: 300px;*/
+    /*height: 300px;*/
+    text-align: center;
+    border: none;
+    color: white;
+}
+.modal-dialog {
+    height: 1000px;
+}
+.modal-position {
+    padding-top: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
